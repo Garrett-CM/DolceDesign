@@ -1,0 +1,36 @@
+*{
+    border: 1px solid black;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+main{
+    height: 60vh;
+    background-color: bisque;
+}
+
+nav{
+    background-color: peru;
+}
+footer{
+    background-color: palevioletred;
+}
+
+main > div{
+    padding-top: 100px;
+    margin: auto;
+    width: 80%;
+    height: 120px;
+    background-color: black;
+}
+
