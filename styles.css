@@ -1,14 +1,38 @@
 body {
-  background-color: bisque;
+  background-image: url("img/phDolceBG.jpg");
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
 }
 
 .landing-card {
-  border: 1px solid black;
-  background: rgba(black, 0.5);
+  width: 40%;
+  padding: 60px 60px calc(64px) 60px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.678);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card {
+  width: 80%;
 }
 
 ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+}
+div > h1 {
+  text-align: center;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 5vh;
 }
