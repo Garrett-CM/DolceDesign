@@ -9,11 +9,11 @@ body {
 }
 
 .landing-card {
-  width: 40%;
-  padding: 60px 60px calc(64px) 60px;
+  width: 35%;
+  padding: 65px
   /* border: 1px solid black; */
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0.678);
+  border-radius: 1px;
+  background: rgba(235, 235, 235, 0.829);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,12 +21,25 @@ body {
 
 .inner-card {
   width: 80%;
+  margin: auto;
+}
+
+.inner-card > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card > div > img {
+  height: 170px;
 }
 
 ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  padding-inline-start: 0px;
+  width: 100%;
 }
 div > h1 {
   text-align: center;
