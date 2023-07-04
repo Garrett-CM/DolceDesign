@@ -31,11 +31,14 @@ body {
 .inner-card > div > img {
   height: 170px;
 }
-
+a {
+  text-decoration: none;
+}
 ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+
   padding-inline-start: 0px;
   width: 100%;
 }
