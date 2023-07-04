@@ -10,8 +10,6 @@ body {
 
 .landing-card {
   width: 35%;
-  padding: 65px
-  /* border: 1px solid black; */
   border-radius: 1px;
   background: rgba(235, 235, 235, 0.829);
   display: flex;
