@@ -1,6 +1,7 @@
 body {
-  background-image: url("img/phDolceBG.jpg");
+  background-image: url("img/waiting.jpg");
   background-color: black;
+  background-size: cover;
   height: 90vh;
   display: flex;
   justify-content: center;
