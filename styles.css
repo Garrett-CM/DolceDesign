@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/chair.jpg");
+  background-image: url("img/lobby.jpg");
   background-color: black;
   background-size: contain; /*chair mirror 50% then transform 50*/
   height: 90vh;
