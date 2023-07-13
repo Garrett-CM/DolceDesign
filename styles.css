@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/lobby.jpg");
+  background-image: url("img/lobby2.jpg");
   background-color: black;
   background-size: contain; /*chair mirror 50% then transform 50*/
   height: 90vh;
@@ -15,6 +15,7 @@ body {
   border: 1px solid rgb(109, 108, 108);
   padding-top: 7px;
   background: rgba(235, 235, 235, 0.829);
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: center;
