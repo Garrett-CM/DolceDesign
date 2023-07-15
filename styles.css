@@ -69,3 +69,7 @@ div > h1 {
   bottom: 5vh;
   filter: invert(100%);
 }
+
+.headshot {
+  width: 20%;
+}
