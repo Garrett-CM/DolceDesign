@@ -1,8 +1,12 @@
 body {
-  background-image: url("img/lobby2.jpg");
+  width: 80%;
+  background-image: url("img/phDolceBG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: black;
-  background-size: contain; /*chair mirror 50% then transform 50*/
-  height: 90vh;
+  height: 100vh;
+  overflow-y: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +23,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+div {
+  border: 2px solid green;
 }
 
 .inner-card {
@@ -51,6 +59,8 @@ div > h1 {
 }
 
 .social-links {
+  mix-blend-mode: difference;
   position: absolute;
   bottom: 5vh;
+  filter: invert(100%);
 }
