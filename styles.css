@@ -59,6 +59,12 @@ ul {
   padding-inline-start: 0px;
   width: 100%;
 }
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+}
+
 div > h1 {
   text-align: center;
 }
