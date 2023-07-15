@@ -1,5 +1,6 @@
 body {
   width: 80%;
+  margin: auto;
   background-image: url("img/phDolceBG.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -16,22 +17,25 @@ body {
 .landing-card {
   width: 35%;
   border-radius: 1px;
-  border: 1px solid rgb(109, 108, 108);
-  padding-top: 7px;
-  background: rgba(235, 235, 235, 0.829);
+  background: radial-gradient(#ffffffdd, #ffffff54);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgb(177, 177, 254),
+      rgb(255, 254, 255)
+    )
+    1;
   backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-div {
-  border: 2px solid green;
-}
-
 .inner-card {
   width: 80%;
   margin: auto;
+  padding: 1.2rem 1rem;
 }
 
 .inner-card > div {
