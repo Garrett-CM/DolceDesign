@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color: black;
 }
-ul {
+.landing-list {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -60,9 +60,12 @@ ul {
   width: 100%;
 }
 
-.contact-card {
+.contact-card,
+.contact-large {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  font-family: "Rozha One", serif;
 }
 
 div > h1 {
