@@ -53,11 +53,13 @@ a {
 }
 .landing-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   list-style-type: none;
-
   padding-inline-start: 0px;
   width: 100%;
+}
+.landing-card > li {
+  /*width: 30%;*/
 }
 
 .contact-card,
@@ -82,4 +84,8 @@ div > h1 {
 
 .headshot {
   width: 20%;
+}
+
+.hr {
+  margin: 0 1rem;
 }
