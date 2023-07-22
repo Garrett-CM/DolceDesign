@@ -1,7 +1,7 @@
 body {
   width: 80%;
   margin: auto;
-  background-image: url("img/phDolceBG.jpg");
+  background-image: url("img/chair.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,8 @@ body {
 .landing-card {
   width: 35%;
   border-radius: 1px;
-  background: radial-gradient(#ffffffdd, #ffffff54);
+  background: #ffffff5b;
+  /* background: radial-gradient(#ffffffdd, #ffffff54); */
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(
